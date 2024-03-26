@@ -1,0 +1,85 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-primary);
+    top: 0;
+    align-items: center;
+    /* To make it follow your place of scrolling */
+    position: sticky;
+}
+
+.heading-section {
+    /* background-color: red; */
+    position: relative;
+}
+
+.logo {
+    width: 12rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style-type: none;
+    li {
+        padding: 0.7em 0;
+    }
+}
+
+.cta {
+    background-color: var(--secondary-black);
+    color: var(--white);
+    border-radius: 2rem;
+    padding: 0.7em 1em;
+    /* Ready for animation of slight darker of black when hovering */
+    transition: background-color 0.3s;
+}
+
+.cta:hover {
+    background-color: var(--black);
+}
+
+
+/**
+** Hero
+**/
+
+/* https://www.awebco.com/blog/hero-section/ */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-primary);
+}
+
+.hero div:first-child {
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+    font-size: 1.3em;
+    flex-basis: 60%;
+}
+
+.hero h1 {
+    font-size: 4.4em;
+    font-weight: 700;
+}
+
+.hero h3 {
+    font-weight: 400;
+    width: 70%;
+    color: var(--secondary-black);
+}
+
+.hero .big-img-abstract {
+    /* position: relative; */
+    /* width: 385px; */
+    /* right: 525px; */
+    left: 325px;
+
+}
+
+/* cta: Call to Action */
+.hero .cta {
+    padding: 0.5rem 2rem;
+}

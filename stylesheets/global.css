@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+html {
+    font-size: 15px;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --color-primary: #ffc017;
+    --white: #fff;
+    --black: #000;
+    --secondary-black: rgba(0, 0, 0, 0.9);
+}
+svg {
+    width: 100%;
+    height: 100%;
+    fill: var(--black);
+}
+
+
+/**
+** Utility Classes
+**/
+.padding-section {
+    padding: 1.5rem 22rem;
+}
+
+.border-bottom-full-width {
+    border-bottom: 1px solid var(--black);
+}
+
+/* For authors */
+.author {
+    gap: 1rem;
+    align-items: center;
+}
+
+.author-title {
+    font-weight: 600;
+}
+
+.author-image {
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.details {
+    display: flex;
+    gap: 0.3rem;
+}
+
+/* for all the tiny icons */
+svg {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,14 @@
+footer {
+    margin-top: 1rem;
+}
+
+footer nav ul {
+    flex-wrap: wrap;
+    gap: 0;
+
+    li {
+        width: fit-content;
+        display: block;
+        margin-right: 1rem;
+    }
+}
